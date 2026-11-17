@@ -1,0 +1,10 @@
+[project]
+name = "agent"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "ag-ui-strands>=1.0.4",
+    "fastapi>=0.162.5",
+    "strands-agents[openai]>=1.64.0",
+    "uvicorn>=0.54.0",
+]
